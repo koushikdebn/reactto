@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import path from 'path' 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/reactto/',
+  base: '/reactto/dist/',
   plugins: [react()],
   resolve: {
     alias: {
